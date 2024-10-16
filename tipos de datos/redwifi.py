@@ -5,6 +5,7 @@ while True:
     print("=====Elige una opcion=====")
     print("Opcion 1: Agregar wifi")
     print("Opcion 2: Ver Wifi")
+    print("Opcion 3: Salir")
     print("==========================")
     opcion=int(input("Elige la opcion:"))
     print("==========================")
@@ -21,3 +22,5 @@ while True:
     elif opcion==2:
         for i in range(len(datos)):
             print(datos[i])
+    elif opcion== 3:
+        break
